@@ -1,0 +1,103 @@
+
+.filters button {
+    background: lightgreen;
+    border: lightgreen;
+    padding: 6px 12px;
+    text-align: center;
+    color: #000;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    margin: 0 8% 5px;			
+}
+.filters button:hover, .filters button:focus, .filters button.active {
+    background: rgb(93, 139, 89);
+    border: rgb(93, 139, 89);
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    background: #e3e3e3;
+    display: table;
+    padding: 15px;
+}
+aside {
+    width: 15%;
+    background: #fff;
+    padding: 8px;
+    float: left;
+}
+.card-container {
+    width: 85%;
+    float: left;
+    padding-left: 10px;
+}
+.card-container .set {
+    width: 25%;
+    padding: 0 5px;
+    margin-bottom: 15px;
+    float: left;
+}
+.card {
+    padding: 10px;
+    background: #fff;
+}
+img {
+    max-width: 100%;
+}
+.card-content h3 {
+    font-size: 16px;
+    color: rgb(1, 1, 138);
+}
+.card-content p {
+    font-size: 12px;
+    color: #000;
+    font-weight: 600;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-content p span {
+    color: gray;
+    margin-left: auto;
+}
+@media (max-width: 1024px) {
+    .card-container .set {
+        width: 33.3333333%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .card-container .set {
+        width: 50%;
+    }
+}
+@media (max-width: 767px) {
+    .card-container .set {
+        width: 50%;
+    }
+    aside {
+        width: 25%;
+    }
+    .card-container {
+        width: 75%;
+    }
+}
+@media (max-width: 599px) {
+    .card-container .set {
+        width: 100%;
+        padding: 0;
+    }
+    aside {
+        width: 100%;
+    }
+    .card-container {
+        width: 100%;
+        padding: 15px 0 0 0;
+    }
+}
+.launch-program-page{
+    text-align: center;
+    margin-top: 215px;
+}
