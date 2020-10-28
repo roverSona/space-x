@@ -25,7 +25,7 @@ export interface Space {
 
 export interface Filters {
     limit: number;
-    launch_success: string;
-    land_success: string;
-    launch_year: string;
+    launch_success?: string;
+    land_success?: string;
+    launch_year?: string;
 }
