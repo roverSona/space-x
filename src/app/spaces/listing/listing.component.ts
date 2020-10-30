@@ -80,7 +80,7 @@ export class ListingComponent implements OnInit {
             Number(this.defaultFilters.limit) === this.spaceListing?.length) {
             this.defaultFilters = {
                 ...this.defaultFilters,
-                limit: this.defaultFilters.limit + Constants.NUMBERS.TWENTY
+                limit: Number(this.defaultFilters.limit) + Constants.NUMBERS.TWENTY
             };
             this.changeQueryParams(this.defaultFilters);
         }
