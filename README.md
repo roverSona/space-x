@@ -25,3 +25,15 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Angular server Side Rendering 
+
+Run `npm run dev:ssr` to test server side rendering on dev mode.
+
+## Angular server Side Rendering  production
+
+Run `npm run build:ssr` to build the project with server side rendering. The build artifacts will be stored in the `dist/` directory.
+
+## Run Server Side Rendering App on production
+
+Run `npm run serve:ssr` to run the app.
